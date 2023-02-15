@@ -1,8 +1,9 @@
 // your code here
-const output = document.getElementById('output');
+const name = document.getElementById('name');
+const year  = document.getElementById('year');
 
 function updateOutput() {
-  output.textContent = window.location.href;
+  output.textContent = "https://localhost:8080/" +  name + year ;
   event.preventDefault();
 }
 
